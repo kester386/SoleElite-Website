@@ -1,0 +1,38 @@
+body{background-image:url("images/backgroundnew.png");
+font-family:Comic sans MS;
+font-size: 25px;
+color:#24ff24;
+}
+p{
+text-indent:30px;
+margin:5px 50px 5px 50px;
+text-align:Justify;
+color:#f9f191;
+}
+h1 {font-size:2em;
+background-color:#FFFAF0;
+text-align:center;
+color:#24ff24;
+animation-duration: 3s;
+animation-name: slidein;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes slidein {
+from { background-color: #800080; }
+to { background-color: #ff6700; }
+
+}
+h2,h3,h4 >span{
+
+display:inline;font-size:1em;
+background-color:#FFFAF0;
+margin:0px auto 0px auto;
+padding:3px;
+text-align:left;
+color:#ff6700;
+}
+
+}
+
+
